@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExpenseTrackerApplication</string>
+    <string name="app_title">Expense Tracker</string>
+    <string name="label_description">Description:</string>
+    <string name="label_amount">Amount:</string>
+    <string name="label_category">Category:</string>
+    <string name="add_button">ADD EXPENSES</string>
+    <string name="add_expense_menu">Add Expense</string>
+    <string name="view_expense_menu">View All Expenses</string>
+    <string name="view_total_menu">View Total Spent</string>
+    <string name="exit_menu">Exit</string>
+    <string name="total_spent">Total Spent:  </string>
+</resources>
