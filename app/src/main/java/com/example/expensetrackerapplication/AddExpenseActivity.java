@@ -39,6 +39,9 @@ public class AddExpenseActivity extends AppCompatActivity {
                 if (amount > 0) {
                     expenseList.addExpense(description, amount, category);
                     Toast.makeText(getApplicationContext(), "Expense added!", Toast.LENGTH_SHORT).show();
+                    descriptionInput.setText("");
+                    amountInput.setText("");
+                    categoryInput.setText("");
                 } else {
                     Toast.makeText(getApplicationContext(), "Invalid amount. Expense not added.", Toast.LENGTH_SHORT).show();
                 }
